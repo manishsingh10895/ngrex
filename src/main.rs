@@ -44,7 +44,6 @@ fn scaffold(feature: &str) -> Result<(), ExitFailure> {
 }
 
 fn main() -> Result<(), ExitFailure> {
-    println!("Hello, world!");
     let options = Options::from_args();
 
     if options.new_store {}
